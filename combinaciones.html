@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palabras Clave en Combinatoria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .examples {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Palabras Clave en Combinatoria</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Tipo</th>
+            <th>Palabras Clave y Ejemplos</th>
+            <th>Características</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Permutación Sin Repetición</td>
+            <td>
+                Arreglar, Ordenar, Colocar, Disposición, Secuencia, Rotación, Clasificación, Organizar, Distribución
+                <div class="examples">
+                    Ejemplos: 
+                    <ul>
+                        <li>¿De cuántas maneras se pueden <strong>arreglar</strong> 6 fotos en un álbum?</li>
+                        <li>Si tienes 5 libros, ¿de cuántas maneras puedes <strong>ordenar</strong> los libros en una estantería?</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                No se pueden repetir, todos los elementos pueden ser usados, el orden influye.
+            </td>
+        </tr>
+        <tr>
+            <td>Permutación Con Repetición</td>
+            <td>
+                Arreglar, Ordenar, Claves, Contraseñas, Secuencia, Repetición, Formar, Organizar
+                <div class="examples">
+                    Ejemplos: 
+                    <ul>
+                        <li>¿Cuántas <strong>contraseñas</strong> de 4 dígitos se pueden <strong>formar</strong> usando los números del 0 al 9?</li>
+                        <li>Si tienes 3 letras (A, B, C), ¿cuántas <strong>secuencias</strong> de 3 letras se pueden formar?</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                Se pueden repetir, todos los elementos pueden ser usados, el orden influye.
+            </td>
+        </tr>
+        <tr>
+            <td>Combinación Sin Repetición</td>
+            <td>
+                Elegir, Seleccionar, Grupo, Subgrupo, Sin importar el orden, Recoger, Formar, Agrupar, Reunir
+                <div class="examples">
+                    Ejemplos: 
+                    <ul>
+                        <li>¿Cuántos <strong>grupos</strong> de 3 frutas se pueden <strong>elegir</strong> de una canasta de 10?</li>
+                        <li>Si hay 12 estudiantes, ¿de cuántas maneras se pueden <strong>formar</strong> equipos de 4?</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                No se pueden repetir, todos los elementos pueden ser usados, el orden no influye.
+            </td>
+        </tr>
+        <tr>
+            <td>Combinación Con Repetición</td>
+            <td>
+                Elegir, Seleccionar, Grupo, Reunir, Sin importar el orden, Claves, Variantes, Repetición
+                <div class="examples">
+                    Ejemplos: 
+                    <ul>
+                        <li>¿Cuántas formas hay de <strong>elegir</strong> 3 frutas de una canasta con 5 tipos, permitiendo repetir?</li>
+                        <li>¿Cuántos <strong>subgrupos</strong> de 2 personas se pueden <strong>crear</strong> si cada persona puede ser seleccionada varias veces?</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                Se pueden repetir, todos los elementos pueden ser usados, el orden no influye.
+            </td>
+        </tr>
+        <tr>
+            <td>Variación Sin Repetición</td>
+            <td>
+                Seleccionar con orden, Elegir con orden, Arreglar, Asignar, Clasificar, Distribuir, Organizar
+                <div class="examples">
+                    Ejemplos: 
+                    <ul>
+                        <li>¿De cuántas maneras se pueden <strong>asignar</strong> 3 puestos de trabajo a 5 candidatos?</li>
+                        <li>¿Cuántas <strong>secuencias</strong> se pueden formar con 4 números tomados de un conjunto de 6?</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                No se pueden repetir, no todos los elementos pueden ser usados, el orden influye.
+            </td>
+        </tr>
+        <tr>
+            <td>Variación Con Repetición</td>
+            <td>
+                Seleccionar con orden, Elegir con repetición, Claves, Contraseñas, Secuencias, Formar, Organizar
+                <div class="examples">
+                    Ejemplos: 
+                    <ul>
+                        <li>¿Cuántas <strong>combinaciones</strong> de 4 letras se pueden <strong>formar</strong> usando A, B y C con repetición?</li>
+                        <li>Si hay 3 sabores de helado, ¿cuántas <strong>variantes</strong> se pueden hacer al elegir 2, si el orden importa y se pueden repetir?</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                Se pueden repetir, no todos los elementos pueden ser usados, el orden influye.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
